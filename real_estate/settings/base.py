@@ -131,6 +131,9 @@ MEDIA_ROOT = BASE_DIR / 'mediafiles'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# custom user model
+AUTH_USER_MODEL = "users.User"
+
 # define loggers
 import logging
 import logging.config
