@@ -24,7 +24,7 @@ class CustomUserManager(BaseUserManager):
             raise ValueError(_('an email address is required '))
         
         user = self.model(
-            usename = username,
+            username = username,
             first_name = first_name,
             last_name = last_name,
             email = email,
