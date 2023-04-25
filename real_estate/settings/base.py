@@ -191,6 +191,7 @@ DJOSER = {
 # define loggers
 import logging
 import logging.config
+
 from django.utils.log import DEFAULT_LOGGING
 
 # python logging instance 

@@ -1,8 +1,10 @@
 import logging
+
 from django.db.models.signals import post_save
-from django.dispatch import receiver 
-from real_estate.settings.base import AUTH_USER_MODEL
+from django.dispatch import receiver
+
 from apps.profiles.models import Profile
+from real_estate.settings.base import AUTH_USER_MODEL
 
 logger = logging.getLogger(__name__)
 

@@ -5,6 +5,7 @@ from apps.ratings.serializers import RatingSerializer
 
 from .models import Profile
 
+
 class ProfileSerializer(serializers.ModelSerializer):
     username = serializers.CharField(source = "user.username")
     first_name = serializers.CharField(source = "user.first_name")

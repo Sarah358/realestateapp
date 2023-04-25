@@ -1,8 +1,10 @@
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from real_estate.settings.base import AUTH_USER_MODEL
+
 from apps.common.models import TimeStampedUUIDModel
 from apps.profiles.models import Profile
+from real_estate.settings.base import AUTH_USER_MODEL
+
 
 # Create your models here.
 class Rating(TimeStampedUUIDModel):

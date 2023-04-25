@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Property,PropertyViews
+
+from .models import Property, PropertyViews
+
 
 # Register your models here.
 class PropertyAdmin(admin.ModelAdmin):

@@ -1,11 +1,12 @@
 from django.core.mail import send_mail
-
-from real_estate.settings.development import DEFAULT_FROM_EMAIL
 from rest_framework import permissions
-from rest_framework.decorators import permission_classes,api_view
+from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 
+from real_estate.settings.development import DEFAULT_FROM_EMAIL
+
 from .models import Enquiry
+
 
 @api_view(["POST"])
 @permission_classes([permissions.AllowAny])

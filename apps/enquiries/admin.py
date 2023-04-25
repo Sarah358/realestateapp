@@ -1,5 +1,7 @@
 from django.contrib import admin
+
 from .models import Enquiry
+
 
 # Register your models here.
 class EnquiyAdmin(admin.ModelAdmin):
