@@ -13,7 +13,7 @@ urlpatterns = [
     path("api/v1/enquiries/",include("apps.enquiries.urls")),
 
 
-]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+]
 
 admin.site.site_header = "Real Estate Admin"
 admin.site.site_title = "Real Estate Admin Portal"

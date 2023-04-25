@@ -740,11 +740,11 @@
         },
         "social-auth-core": {
             "hashes": [
-                "sha256:29f5ea3174162797ccb9b849f7a38a9490bfb920304ecd9b7f63c6c3a5ceb7a3",
-                "sha256:cff78e0707ed0f6bdd3beec6ce713591875492b98272ea6298cc173912e3234b"
+                "sha256:9791d7c7aee2ac8517fe7a2ea2f942a8a5492b3a4ccb44a9b0dacc87d182f2aa",
+                "sha256:ea7a19c46b791b767e95f467881b53c5fd0d1efb40048d9ed3dbc46daa05c954"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==4.4.1"
+            "version": "==4.4.2"
         },
         "sqlparse": {
             "hashes": [
