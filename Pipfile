@@ -27,6 +27,16 @@ pytest-django = "*"
 pytest-factoryboy = "*"
 faker = "*"
 pytest-cov = "*"
+redis = "*"
+celery ="==4.4.7"
+flower = "*"
+django-celery-email = "*"
+argh = "*"
+PyYAML = "*"
+watchdog = "*"
+
+
+
 
 [dev-packages]
 
